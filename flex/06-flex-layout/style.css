@@ -36,8 +36,13 @@ input {
 
 .content {
   flex: 1;
+  text-align: center;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+  /* display: flex;
+  align-items: center; */
 }
 
 .header,
@@ -62,4 +67,16 @@ a {
 
 .footer {
   background-color: #eeeeee;
+}
+
+img {
+  align-self: center;
+}
+
+button {
+  padding: 8px 16px;
+}
+
+input {
+  margin-bottom: 0px;
 }
